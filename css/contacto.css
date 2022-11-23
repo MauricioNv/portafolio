@@ -1,0 +1,129 @@
+.contacto {
+    width: auto;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.contacto h1 {
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Cooper Hewitt';
+    font-size: 2.4rem;
+    letter-spacing: .1rem;
+    padding: 6rem 0 4rem 0;
+}
+
+
+.container--contacto {
+    width: 90%;
+    border-radius: 24px;
+    padding: 1rem;
+}
+
+.container_text--contacto {
+    width: 100%;
+    align-items: center;
+}
+
+.container_text--contacto p {
+    font-size: 1.6rem;
+    font-family: 'Cooper Hewitt';
+    margin-bottom: 3rem;
+    letter-spacing: 1px;
+    line-height: 2.3rem;
+}
+
+.form-contact input {
+    font-family: 'Cooper Hewitt';
+    background: transparent;
+    border: 1px solid black;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: black;
+    font-size: 1.6rem;
+    outline: none;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+.form-contact input::placeholder {
+    color: black;
+}
+
+.form-contact .input-invalid {
+    border: 1px solid black;
+    color: black;
+}
+
+.form-contact textarea {
+    background: transparent;
+    border: 1px solid black;
+    font-family: 'Cooper Hewitt';
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: black;
+    font-size: 1.6rem;
+    outline: none;
+    margin-bottom: 3rem;
+    letter-spacing: 1px;
+    resize: none;
+}
+
+.form-contact textarea::placeholder {
+    color: black;
+}
+
+.form-contact textarea::-webkit-scrollbar {
+
+    color: black;
+
+}
+
+.form-contact textarea::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+
+.form-contact textarea::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
+
+.btn_form--contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_form--contacto button {
+    background: black;
+    border: none;
+    font-family: 'Cooper Hewitt';
+    width: 13rem;
+    padding: .8rem 1rem;
+    border-radius: .5rem;
+    color: var(--white);
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.btn_form--contacto button:hover {
+    border-color: #21f3d0;
+    background-color: #21f3d0;
+    transition: .4s;
+    transition: all .4s ease;
+}
+
+.btn_form--contacto button:active {
+    background: black;
+}
+
+ 

@@ -1,0 +1,148 @@
+.proyectos {
+    width: 100%;
+    height: auto;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.proyectos h1 {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Cooper Hewitt';
+    font-size: 2.4rem;
+    letter-spacing: .1rem;
+    padding: 3rem 0 2rem 0;
+}
+
+.SitiosWEB h1 {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Cooper Hewitt';
+    font-size: 2.4rem;
+    letter-spacing: .1rem;
+    padding: 3rem 0 2rem 0;
+}
+
+/*------- plantilla de disposicion de elementos*/
+.cards_container--proyectos {
+    margin-bottom: 3rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards--proyectos {
+    border-radius: 20px;
+    padding-bottom: 2rem;
+    min-width: 25rem;
+    max-width: 25rem;
+    border: 2px solid black;
+}
+
+.card_JuegoAhorcado {
+    margin-bottom: 4rem;
+}
+
+.card_portafolio {
+    margin-bottom: 4rem;
+    border: 1px solid var(--eerie-black);
+}
+
+.container_imgCard--proyectos {
+    margin-bottom: 1rem;
+    border-radius: 20px 20px 0 0;
+}
+
+.container_imgCard--proyectos img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.container_textCard--proyectos {
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+/*----------------------------------*/
+.container_textCard--proyectos h2 {
+    align-items: center;
+    font-family: 'Cooper Hewitt';
+    letter-spacing: .1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: inline;
+}
+
+.container_textCard--proyectos p {
+
+    font-family: 'Cooper Hewitt';
+    letter-spacing: .1rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+/*-----------botones-------------*/
+
+.container_btn--proyectos {
+    display: flex;
+    justify-content: center;
+}
+
+.container_btn--proyectos a {
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.container_btn--proyectos button {
+    background: none;
+    color: var(----eerie-black);
+    border: 2px solid var(----eerie-black);
+    padding: .8rem 0;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+
+.container_btn--proyectos button:hover {
+    border-color: #21f3d0;
+    background-color: #21f3d0;
+    border: 1px solid #101010;
+     
+    transition: all .4s ease;
+}
+
+ 
+
+
+.btn_demo img {
+    width: 2rem;
+    margin-right: .8rem;
+}
+
+.btn_repo img {
+    width: 2rem;
+    margin-right: .8rem;
+}
+
+@media (max-width : 740px) {
+
+    .cards_container--proyectos {
+        width: 90%;        
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        margin: 0%;
+         
+    }  
+  
+    
+
+}

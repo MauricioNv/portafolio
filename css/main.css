@@ -1,0 +1,197 @@
+/* home*/
+
+.home {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 100%;
+    height: auto;
+
+}
+
+.container_image-home {
+    display: flex;
+    justify-content: center;
+}
+
+.image-home {
+    max-width: 50%;
+}
+
+/* informacion */
+.home_info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.titulo-home {
+    font-family: 'Cooper Hewitt';
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.home_text-1 {
+    width: 50rem;
+    font-family: 'Cooper Hewitt';
+    color: var(--ceniza-oscuro);
+    font-size: 1.1rem;
+    letter-spacing: .1rem;
+
+}
+
+.contact_button {
+    background-color: #D9D9D9;
+    border-radius: 3rem;
+    padding: .5rem 2rem;
+    font-family: 'Cooper Hewitt';
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 2rem 0;
+    border: none;
+    cursor: pointer;
+}
+
+.contact_button:hover {
+    background-color: #21f3d0;
+    box-shadow: 0 0 10px #21f3d0, 0 0 40px #21f3d0, 0 0 80px #21f3d0;
+    transition: .4s;
+}
+
+/*sobre mi*/
+
+.sobreMi {
+    width: 100%;
+    height: auto;
+    margin-right: 20%;
+
+}
+
+.container_content-sobreMi {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+    height: auto;
+
+}
+
+.sobreMi {
+    display: block;
+    text-align: center;
+    font-family: 'Cooper Hewitt';
+    color: var(--ceniza-oscuro);
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+
+}
+
+.title_sobreMi {
+    font-family: 'Cooper Hewitt';
+    color: #4F4C4C;
+    text-align: center;
+    font-size: 2.2rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.container_texto-sobreMi {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_image-sobreMi {
+    width: 55%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.image_sobreMi {
+    width: 80%;
+    border: solid 2px;
+    border-color: #333333;
+}
+
+.texto_sobreMi {
+    color: var(--light-grey);
+    font-family: 'Cooper Hewitt';
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    width: 90%;
+    margin-left: 5%;
+}
+/*------responsitive ----*/
+
+@media (max-width : 740px) {
+    .home {
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0;
+        width: 100%;
+        height: auto;        
+
+    }
+    .container_image-home {
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+    }
+
+    /* informacion */
+    .home_info {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        }
+
+    .titulo-home {       
+        text-align: center;
+        flex-direction: column;;
+    }
+
+    .home_text-1 {
+        width: auto;
+        text-align: center;
+        align-items: center;
+        font-size: 1.1rem;
+        letter-spacing: .1rem;
+    }
+
+    .contact_button {
+    display: none;
+         
+    }    
+
+    /*sobre mi*/
+
+    .sobreMi {
+        width: 100%;
+        height: auto;
+    }
+  
+    .container_content-sobreMi {
+        flex-direction: column;
+        justify-content: center;        
+        height: auto;
+    }
+
+    .sobreMi {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }    
+
+    .container_image-sobreMi { 
+        margin-top: 2rem; 
+        margin-left: 4em;
+       
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;     
+    }
+}
+   
